@@ -7,4 +7,4 @@ WORKDIR /app
 COPY . /app
 RUN mvn clean install
 EXPOSE 8079
-CMD ["java", "-jar"," target/Demy-0.0.1-SNAPSHOT.war"]
+CMD ["java", "-jar", "target/Demy-0.0.1-SNAPSHOT.war"]
